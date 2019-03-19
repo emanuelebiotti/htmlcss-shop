@@ -1,10 +1,10 @@
 #container {
 
-  width:930px;
+  width:950px;
   height:765;
 }
 
-#iphone, #ipad, #headphone {
+#iphone, #ipad, #headphones {
 
   display:inline-block;
   width:300px;
@@ -15,10 +15,24 @@
 
 .bigDiscount {
 
-  width:30px;
-  height: 15px;
+  width:40px;
+  height:20px;
   background-color: green;
   position:absolute;
   right:0;
   top:0;
+  text-align: center;
+}
+
+.smallDiscount {
+
+  width:40px;
+  height:20px;
+  background-color: red;
+  position:absolute;
+  right:0;
+  top:0;
+  text-align: center;
+  }
+
 }
