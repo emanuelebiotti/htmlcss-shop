@@ -1,0 +1,12 @@
+#container {
+
+  width:930px;
+  height:744;
+}
+
+#iphone, #ipad, #headphone {
+
+  display:inline-block;
+  width:300px;
+  height:372px;
+}
