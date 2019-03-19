@@ -48,7 +48,7 @@
 
 }
 
-#iphone:hover {
+#iphone.favourite:hover {
 
   z-index:0;
 }
