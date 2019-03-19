@@ -1,7 +1,7 @@
 #container {
 
   width:930px;
-  height:744;
+  height:765;
 }
 
 #iphone, #ipad, #headphone {
@@ -9,4 +9,5 @@
   display:inline-block;
   width:300px;
   height:372px;
+  margin-bottom: 20px;
 }
