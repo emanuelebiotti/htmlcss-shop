@@ -1,54 +1,78 @@
 #container {
 
-  width:950px;
-  height:800;
+  width:1000px;
+  margin: auto;
 
 }
 
-#iphone, #ipad, #headphones {
-
+#container > div {
   display:inline-block;
-  width:300px;
-  height:372px;
-  position:relative;
-  z-index: 2;
-  margin-bottom:20px;
+
 }
 
-.bigDiscount {
+#object1,
+#object2,
+#object3 {
 
-  width:40px;
-  height:20px;
-  background-color: green;
-  position:absolute;
+  width:300px;
+  height:400px;
+  background-size: cover;
+  position:relative;
+
+}
+
+#object1:hover span,
+#object2:hover span,
+#object3:hover span {
+
+  display:block;
+}
+
+#object1 {
+
+  background-image: url("pd1.jpg");
+
+}
+
+#object2 {
+
+  background-image: url("pd2.jpg");
+
+
+}
+
+#object3 {
+
+  background-image: url("pd3.jpg");
+
+}
+
+.bigDiscount, .smallDiscount {
+
+  font-size:20px;
+  position: absolute;
   right:0;
   top:0;
-  text-align: center;
+
 }
 
 .smallDiscount {
 
-  width:30px;
-  height:20px;
   background-color: red;
-  position:absolute;
-  right:0;
-  top:0;
-  text-align: center;
-  }
+}
 
-#love {
+.bigDiscount {
 
-  position:absolute;
-  left:450px;
-  bottom:430px;
-  color:red;
-  font-size: 170%;
-  z-index: 1;
+  background-color: green;
 
 }
 
-#iphone.favourite:hover {
+span {
 
-  z-index:0;
+  font-size: 30px;
+  color:red;
+  position: absolute;
+  bottom:0;
+  left: calc((100% - 30px) /2);
+  display:none;
 }
