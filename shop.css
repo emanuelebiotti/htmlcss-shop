@@ -5,14 +5,17 @@
 
 }
 
-#container > div {
+#container > div > div {
   display:inline-block;
 
 }
 
-#object1,
-#object2,
-#object3 {
+.marginBottom {
+
+  margin-bottom: 20px;
+}
+
+.object {
 
   width:300px;
   height:400px;
@@ -21,27 +24,25 @@
 
 }
 
-#object1:hover span,
-#object2:hover span,
-#object3:hover span {
+.object:hover span {
 
   display:block;
 }
 
-#object1 {
+.img_container1 {
 
   background-image: url("pd1.jpg");
 
 }
 
-#object2 {
+.img_container2 {
 
   background-image: url("pd2.jpg");
 
 
 }
 
-#object3 {
+.img_container3 {
 
   background-image: url("pd3.jpg");
 
